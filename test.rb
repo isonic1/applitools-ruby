@@ -5,7 +5,7 @@ describe 'Testing Applitools' do
   before(:each) do |e|
     browser = Selenium::WebDriver.for :chrome
     @eyes = Applitools::Selenium::Eyes.new
-    @eyes.api_key = EVN['APPLITOOLS_KEY']
+    @eyes.api_key = ENV['APPLITOOLS_KEY']
     @eyes.match_level = Applitools::MATCH_LEVEL[:strict]
     @eyes.force_full_page_screenshot = true
     @eyes.stitch_mode = :css
