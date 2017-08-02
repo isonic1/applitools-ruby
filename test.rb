@@ -9,8 +9,9 @@ describe 'Testing Applitools' do
     @eyes.match_level = Applitools::MATCH_LEVEL[:strict]
     @eyes.force_full_page_screenshot = true
     @eyes.stitch_mode = :css
-    batch_info = Applitools::BatchInfo.new('JENKINS EXAMPLE')
+    batch_info = Applitools::BatchInfo.new(ENV['JOB_NAME'])
     batch_info.id = ENV["APPLITOOLS_BATCH_ID"]
+    puts "My Batch Info: #{batch_info}"
     @eyes.batch = batch_info
     @driver = @eyes.open(driver: browser, app_name: "Full Page Screenshot", test_name: e.full_description, viewport_size: { width: 1000, height: 800 })
   end
