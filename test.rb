@@ -1,9 +1,8 @@
 require 'eyes_selenium'
 
 describe 'Testing Applitools' do
-
-  before(:each) do |e|
-    browser = Selenium::WebDriver.for :chrome
+  
+  before(:all) do
     @eyes = Applitools::Selenium::Eyes.new
     @eyes.api_key = ENV['APPLITOOLS_KEY']
     @eyes.match_level = Applitools::MATCH_LEVEL[:strict]
@@ -13,6 +12,10 @@ describe 'Testing Applitools' do
     batch_info.id = ENV["APPLITOOLS_BATCH_ID"]
     puts "My Batch Info: #{batch_info}"
     @eyes.batch = batch_info
+  end
+  
+  before(:each) do |e|
+    browser = Selenium::WebDriver.for :chrome
     @driver = @eyes.open(driver: browser, app_name: "Full Page Screenshot", test_name: e.full_description, viewport_size: { width: 1000, height: 800 })
   end
 
