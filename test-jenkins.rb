@@ -8,9 +8,9 @@ describe 'Testing Applitools' do
     @eyes.match_level = Applitools::MATCH_LEVEL[:strict]
     @eyes.force_full_page_screenshot = true
     @eyes.stitch_mode = :css
-    batch_info = Applitools::BatchInfo.new(ENV['JOB_NAME'])
-    batch_info.id = ENV["APPLITOOLS_BATCH_ID"]
-    @eyes.batch = batch_info
+    # batch_info = Applitools::BatchInfo.new(ENV['JOB_NAME'])
+    # batch_info.id = ENV["APPLITOOLS_BATCH_ID"]
+    # @eyes.batch = batch_info
   end
   
   before(:each) do |e|
