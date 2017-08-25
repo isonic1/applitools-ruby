@@ -31,15 +31,10 @@ describe 'Testing Applitools' do
     expect(results.passed?).to eq true
   end
 
-  # it 'CNN' do
-  #   @driver.get 'https://cnn.com'
-  #   begin
-  #     @eyes.check_window 'CNN'
-  #   rescue
-  #     puts "Encontered error. Retrying..."
-  #     retry
-  #   end
-  #   results = @eyes.close(false)
-  #   expect(results.passed?).to eq true
-  # end
+  it 'CNN' do
+    @driver.get 'https://cnn.com'
+    @eyes.check_window 'CNN'
+    results = @eyes.close(false)
+    expect(results.passed?).to eq true
+  end
 end
