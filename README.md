@@ -14,30 +14,3 @@ Ruby Applitools Examples
 
 
 * This is a new PR...
-sdfsdf
-test
-sfdd
-
-sdf
-
-
-sdfdssdfads
-
-
-sdf
-dsaf
-sdfsdf
-
-
-asdfadsf
-
-sdfsdfdsfds
-asd
-f
-sd
-f
-sadf
-d
-sf
-
-sdfsd
