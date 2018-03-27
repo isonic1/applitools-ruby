@@ -8,6 +8,7 @@ describe 'Testing Applitools' do
     @eyes.match_level = Applitools::MATCH_LEVEL[:strict]
     @eyes.force_full_page_screenshot = true
     @eyes.stitch_mode = :css
+    @eyes.branch_name = 'qa'
     if ENV['JENKINS_HOME']
       batch_info = Applitools::BatchInfo.new(ENV['JOB_NAME'])
       batch_info.id = ENV["APPLITOOLS_BATCH_ID"]
