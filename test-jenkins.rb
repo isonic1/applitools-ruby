@@ -8,7 +8,10 @@ describe 'Testing Applitools' do
     @eyes.match_level = Applitools::MATCH_LEVEL[:strict]
     @eyes.force_full_page_screenshot = true
     @eyes.stitch_mode = :css
+    
     @eyes.branch_name = 'qa'
+    #@eyes.parent_branch_name = 'default'
+    
     if ENV['JENKINS_HOME']
       batch_info = Applitools::BatchInfo.new(ENV['JOB_NAME'])
       batch_info.id = ENV["APPLITOOLS_BATCH_ID"]
@@ -29,7 +32,7 @@ describe 'Testing Applitools' do
   end
 
   it 'Applitools Test' do |e|
-    @eyes.open(driver: @driver, app_name: "Full Page Screenshot", test_name: e.full_description, viewport_size: {width: 1050, height: 700})
+    @eyes.open(driver: @driver, app_name: "Full Page Screenshot 2", test_name: e.full_description, viewport_size: {width: 1050, height: 750})
     @driver.get 'https://google.es'
     @eyes.check_window 'Applitools'
     results = @eyes.close(false)
