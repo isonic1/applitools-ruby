@@ -8,7 +8,7 @@ describe 'Testing Applitools' do
     @eyes.force_full_page_screenshot = true
     @eyes.stitch_mode = :css
     
-    @eyes.branch_name = 'qa'
+    @eyes.branch_name = 'travis'
     #@eyes.parent_branch_name = 'default'
     
     batch_info = Applitools::BatchInfo.new(ENV['JOB_NAME'])
