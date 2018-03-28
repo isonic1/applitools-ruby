@@ -12,11 +12,15 @@ describe 'Testing Applitools' do
     @eyes.branch_name = 'qa'
     @eyes.parent_branch_name = 'default'
     
-    #if ENV['JENKINS_HOME']
+    if ENV['JENKINS_HOME']
       batch_info = Applitools::BatchInfo.new(ENV['JOB_NAME'])
       batch_info.id = ENV["APPLITOOLS_BATCH_ID"]
       @eyes.batch = batch_info
-      #end
+    else
+      batch_info = Applitools::BatchInfo.new(ENV['JOB_NAME'])
+      batch_info.id = ENV['APPLITOOLS_BATCH_ID']
+      @eyes.batch = batch_info
+    end
     
     caps = Selenium::WebDriver::Remote::Capabilities.chrome()
     caps['platform'] = 'Windows 7'
@@ -40,3 +44,4 @@ describe 'Testing Applitools' do
     expect(results.passed?).to eq true
   end
 end
+
