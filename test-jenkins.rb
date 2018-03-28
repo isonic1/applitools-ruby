@@ -9,7 +9,7 @@ describe 'Testing Applitools' do
     @eyes.stitch_mode = :css
     
     @eyes.branch_name = 'qa'
-    @eyes.parent_branch_name = 'default'
+    #@eyes.parent_branch_name = 'default'
     
     batch_info = Applitools::BatchInfo.new(ENV['JOB_NAME'])
     batch_info.id = ENV['APPLITOOLS_BATCH_ID']
@@ -31,7 +31,7 @@ describe 'Testing Applitools' do
 
   it 'Applitools Test' do |e|
     @eyes.open(driver: @driver, app_name: "Full Page Screenshot 2", test_name: e.full_description, viewport_size: {width: 1050, height: 750})
-    @driver.get 'https://google.es'
+    @driver.get 'https://applitools.com'
     @eyes.check_window 'Applitools'
     results = @eyes.close(false)
     expect(results.passed?).to eq true
