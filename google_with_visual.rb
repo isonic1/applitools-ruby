@@ -5,7 +5,7 @@ describe 'Testing Google.com' do
   before(:each) do |e|
     @driver = Selenium::WebDriver.for :chrome
     @eyes = Applitools::Selenium::Eyes.new
-    @eyes.api_key = "9RkMajXrzS1Zu110oTWQps102CHiPRPmeyND99E9iL0G7yAc110"
+    @eyes.api_key = ENV['APPLITOOLS_API_KEY']
     @driver.get 'https://google.com'
   end
 
