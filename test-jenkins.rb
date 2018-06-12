@@ -4,7 +4,7 @@ describe 'Testing Applitools' do
   
   before(:all) do
     @eyes = Applitools::Selenium::Eyes.new
-    @eyes.api_key = "KpR4xqSyt8B77HHPL9944Rvv2SW9zvTdoKe2ynz3GQ6E110" || ENV['APPLITOOLS_API_KEY']
+    @eyes.api_key = ENV['APPLITOOLS_API_KEY']
     @eyes.force_full_page_screenshot = true
     @eyes.stitch_mode = :css
     
@@ -32,7 +32,7 @@ describe 'Testing Applitools' do
 
   it 'Applitools Test' do |e|
     @eyes.open(driver: @driver, app_name: "Branch Testing 2", test_name: e.full_description, viewport_size: {width: 1050, height: 750})
-    @driver.get 'https://google.de'
+    @driver.get 'https://google.fr'
     @eyes.check_window 'Google'
     results = @eyes.close(false)
     expect(results.passed?).to eq true
