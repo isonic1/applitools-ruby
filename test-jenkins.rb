@@ -4,7 +4,7 @@ describe 'Testing Applitools' do
   
   before(:all) do
     @eyes = Applitools::Selenium::Eyes.new
-    @eyes.api_key = ENV['APPLITOOLS_API_KEY']
+    @eyes.api_key = "KpR4xqSyt8B77HHPL9944Rvv2SW9zvTdoKe2ynz3GQ6E110" || ENV['APPLITOOLS_API_KEY']
     @eyes.force_full_page_screenshot = true
     @eyes.stitch_mode = :css
     
