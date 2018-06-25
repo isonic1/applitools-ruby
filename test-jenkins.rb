@@ -9,7 +9,7 @@ describe 'Testing Applitools' do
     @eyes.stitch_mode = :css
     
     #@eyes.branch_name = 'jenkins-applitools/applitools-ruby/master'
-    @eyes.branch_name = 'jenkins-applitools/applitools-ruby/france'
+    @eyes.branch_name = 'jenkins-applitools/applitools-ruby/polish'
     #@eyes.parent_branch_name = 'default'
     
     batch_info = Applitools::BatchInfo.new(ENV['JOB_NAME'])
@@ -32,7 +32,7 @@ describe 'Testing Applitools' do
 
   it 'Applitools Test' do |e|
     @eyes.open(driver: @driver, app_name: "Branch Testing 2", test_name: e.full_description, viewport_size: {width: 1050, height: 750})
-    @driver.get 'https://google.fr'
+    @driver.get 'https://google.pl'
     @eyes.check_window 'Google2'
     results = @eyes.close(false)
     expect(results.passed?).to eq true
