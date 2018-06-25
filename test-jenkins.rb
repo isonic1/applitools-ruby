@@ -38,4 +38,3 @@ describe 'Testing Applitools' do
     expect(results.passed?).to eq true
   end
 end
-
