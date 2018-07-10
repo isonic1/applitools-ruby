@@ -8,8 +8,8 @@ describe 'Testing Applitools' do
     @eyes.force_full_page_screenshot = true
     @eyes.stitch_mode = :css
     
-    #@eyes.branch_name = 'jenkins-applitools/applitools-ruby/master'
     @eyes.branch_name = 'jenkins-applitools/applitools-ruby/italian'
+    @eyes.parent_branch_name = 'jenkins-applitools/applitools-ruby/master' 
     
     batch_info = Applitools::BatchInfo.new("continuous-integration/jenkins")
     batch_info.id = ENV['APPLITOOLS_BATCH_ID']
@@ -37,3 +37,4 @@ describe 'Testing Applitools' do
     expect(results.passed?).to eq true
   end
 end
+
