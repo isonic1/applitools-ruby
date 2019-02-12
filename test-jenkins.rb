@@ -9,7 +9,7 @@ describe 'Testing Applitools' do
     @eyes.stitch_mode = :css
     
     @eyes.branch_name = 'jenkins-applitools/applitools-ruby/italian'
-    @eyes.parent_branch_name = 'jenkins-applitools/applitools-ruby/master' 
+    @eyes.parent_branch_name = '' 
     
     batch_info = Applitools::BatchInfo.new("continuous-integration/jenkins")
     batch_info.id = ENV['APPLITOOLS_BATCH_ID']
