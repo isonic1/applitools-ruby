@@ -1,0 +1,3 @@
+User-agent: *\
+Disallow: /perch/\
+Sitemap: http://2018.seleniumconf.com/sitemap.xml
