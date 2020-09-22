@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <title>Code of Conduct | SeleniumConf Chicago</title>    <meta name="description" content="The official US SeleniumConf coming to Chicago on October 18 &amp; 19, 2018" />
+    <meta name="robots" content="" />
+
+    <!-- Open Graph data -->
+    <meta property="og:site_name" content="SeleniumConf Chicago" />
+    <meta property="og:url" content="http://www.seleniumconf.us/code-of-conduct" />
+    <meta property="og:title" content="Code of Conduct | SeleniumConf Chicago" />
+    <meta property="og:description" content="The official US SeleniumConf coming to Chicago on October 18 &amp; 19, 2018" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://www.seleniumconf.us/perch/resources/seleniumconfchicago-w1200.png" />
+
+    <!-- Social sharing meta -->
+    <meta name="twitter:site" content="@seleniumconf" />
+    <meta name="twitter:url" content="http://www.seleniumconf.us/code-of-conduct" />
+    <meta name="twitter:title" content="Code of Conduct | SeleniumConf Chicago" />
+    <meta name="twitter:description" content="The official US SeleniumConf coming to Chicago on October 18 &amp; 19, 2018" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="http://www.seleniumconf.us/perch/resources/seleniumconfchicago-w1200.png" />
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="SeleniumConf Chicago" />
+    <meta itemprop="description" content="The official US SeleniumConf coming to Chicago on October 18 &amp; 19, 2018" />
+    <meta itemprop="image" content="/perch/resources/seleniumconfchicago-w1200.png" />
+
+    <!-- Favicon and app icons -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/icons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/img/icons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/img/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/img/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/img/icons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/img/icons/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="SeleniumConf Chicago"/>
+    <meta name="msapplication-TileColor" content="#3d78b0" />
+    <meta name="msapplication-TileImage" content="/img/icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/img/icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/img/icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/img/icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/img/icons/mstile-310x310.png" />
+    <meta name="theme-color" content="#3d78b0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans:300,400|Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.min.css">
+    <script>document.documentElement.className = 'js';</script>
+    <script>
+  var googleUA = 'UA-96768839-2';
+  var googleDomainList = ['seleniumconf.us', 'ti.to'];
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', googleUA, 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', googleDomainList);
+  ga('send', 'pageview');
+
+</script>
+<meta name="google-site-verification" content="u82n8fCSYCBLDSmM-Fe20sk4SvsswHNIFaGS6975iKs" />
+
+<script type="text/javascript">
+_linkedin_data_partner_id = "370018";
+</script><script type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=370018&fmt=gif" />
+</noscript>
+</head>
+<body class="page page--generic"><nav class="navbar navbar-default navbar--primary">
+    
+
+
+
+
+
+
+    <div class="container">
+        <div class="navbar--brand brand">
+            <h1 class="navbar__title">SeleniumConf Chicago</h1>
+            <a href="/" class="brand__logo">
+                <img src="/perch/resources/logo.svg" alt="SeleniumConf Chicago" />            </a>
+        </div>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="clearfix visible-xs"></div>
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav">
+                    <li>
+        <a href="/talks">Talks</a>
+        
+    </li>
+    <li>
+        <a href="/sponsors">Sponsors</a>
+        
+    </li>
+    <li>
+        <a href="/workshops">Workshops</a>
+        
+    </li>
+    <li>
+        <a href="/location">Location</a>
+        
+    </li>
+    <li>
+        <a href="/blog">Blog</a>
+        
+    </li>
+                <li>
+                    <a class="btn btn--primary" href="https://ti.to/whiteoctober/seleniumconf-chicago-2018?source=header">
+        Buy tickets
+    </a>
+
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <section class="section">
+        <div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h1 class="header">Code of Conduct</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="module-text">
+                <p>SeleniumConf Chicago is a friendly conference where everyone should feel welcome, safe and comfortable to share ideas and engage in open discussion without the threat of intimidation or public humiliation. Please be respectful in person and on social media towards other delegates, speakers, organisers and staff.</p>
+
+<p>We are committed to providing a harassment-free and inclusive conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, political affiliation or religion. We do not tolerate harassment of conference participants, speakers or staff in any form.</p>
+
+<p>Sexual language and imagery are not appropriate for any conference venue, including talks. Conference participants who violate these rules may be expelled from the conference (without a refund) at the discretion of the conference organisers. Harassment includes but is not limited to: offensive verbal comments, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. Participants asked to stop any harassing behaviour are expected to comply immediately. These policies apply in every space at the venue related to conference activity, and to all participants in every role.</p>
+
+<p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified by their t-shirts. We will be happy to assist those experiencing harassment to feel safe for the duration of the conference, for example by providing escorts or contacting police should this be required.</p>
+
+<p>During the conference, contact details will be available for you to report any concerns.</p>
+
+<p>We expect participants to follow these rules at all conference venues and conference-related social events.</p>
+
+<p>We have lovely delegates and trust that this code of conduct mirrors the views of the majority of our participants.</p>
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <section class="section section--type-3 section--decorated">
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+    <h3 class="section__heading">Sponsor SeleniumConf</h3>
+    
+      <div class="section__intro">
+          <p>We love working with our sponsors to come up with fun and creative ways to showcase your brand, meet your objectives and budgets, and add value for our attendees.</p>
+
+<p>Please <a href="/cdn-cgi/l/email-protection#f296939b818bb2859a9b86979d91869d9097809784979c8681dc919ddc8799cd81879098979186cfa1979e979c9b879fb19d9c94d7c0c2b19a9b9193959dd7c0c281829d9c819d80d7c0c282939199">get in touch</a> to request a sponsor pack.</p>
+      </div>
+    
+</div>
+        </div>
+
+    <div class="row row--flex row--flex--center">
+
+        <div class="col-sm-6">
+            <a rel="nofollow" href="https://saucelabs.com">
+                <img src="/perch/resources/sauce-labs-w600@2x.png" alt="Sauce Labs">
+            </a>
+    
+            <p class="text-center small">
+                
+                    
+                    Premier sponsor
+                
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="row row--flex row--flex--center">
+
+        <div class="col-md-3 col-sm-6">
+            <a rel="nofollow" href="https://applitools.com">
+                <img src="/perch/resources/applitools-w400@2x.png" alt="Applitools">
+            </a>
+    
+            <p class="text-center small">
+                
+                    
+                    Platinum sponsor
+                
+            </p>
+        </div>
+
+
+        <div class="col-md-3 col-sm-6">
+            <a rel="nofollow" href="www.mobilelabsinc.com">
+                <img src="/perch/resources/mobilelabs-w400@2x.png" alt="Mobile Labs">
+            </a>
+    
+            <p class="text-center small">
+                
+                    
+                    Gold sponsor
+                
+            </p>
+        </div>
+
+
+        <div class="col-md-3 col-sm-6">
+            <a rel="nofollow" href="https://mabl.com">
+                <img src="/perch/resources/mabl-w400@2x.png" alt="mabl">
+            </a>
+    
+            <p class="text-center small">
+                
+                    
+                    Gold sponsor
+                
+            </p>
+        </div>
+
+
+        <div class="col-md-3 col-sm-6">
+            <a rel="nofollow" href="https://newrelic.com/products/synthetics">
+                <img src="/perch/resources/newrelic-w400@2x.png" alt="New Relic">
+            </a>
+    
+            <p class="text-center small">
+                
+                    
+                    Gold sponsor
+                
+            </p>
+        </div>
+
+
+        <div class="col-md-3 col-sm-6">
+            <a rel="nofollow" href="http://www.smartbear.com">
+                <img src="/perch/resources/smartbear-w400@2x.png" alt="SmartBear">
+            </a>
+    
+            <p class="text-center small">
+                
+                    
+                    Gold sponsor
+                
+            </p>
+        </div>
+
+
+        <div class="col-md-3 col-sm-6">
+            <a rel="nofollow" href="https://www.perfecto.io/">
+                <img src="/perch/resources/perfecto-w400@2x.png" alt="Perfecto">
+            </a>
+    
+            <p class="text-center small">
+                
+                    
+                    Gold sponsor
+                
+            </p>
+        </div>
+
+
+        <div class="col-md-3 col-sm-6">
+            <a rel="nofollow" href="https://www.deque.com/">
+                <img src="/perch/resources/deque-w400@2x.png" alt="Deque">
+            </a>
+    
+            <p class="text-center small">
+                
+                    
+                    Gold sponsor
+                
+            </p>
+        </div>
+
+
+        <div class="col-md-3 col-sm-6">
+            <a rel="nofollow" href="https://goo.gl/oyZtDp">
+                <img src="/perch/resources/kobiton-w400@2x.png" alt="Kobiton">
+            </a>
+    
+            <p class="text-center small">
+                
+                    
+                    Silver sponsor
+                
+            </p>
+        </div>
+
+
+        <div class="col-md-3 col-sm-6">
+            <a rel="nofollow" href="https://www.stickermule.com">
+                <img src="/perch/resources/stickermule-w400@2x.png" alt="Sticker Mule">
+            </a>
+    
+            <p class="text-center small">
+                
+                    
+                    Bronze sponsor
+                
+            </p>
+        </div>
+
+    </div>
+
+    </div>
+</section>
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenLite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+                integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+                crossorigin="anonymous"></script>
+        <script src="/js/main.min.js"></script>
