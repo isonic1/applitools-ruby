@@ -11,7 +11,7 @@ describe 'Visual Grid Example' do
     batch_name = "UFG-Batch"
     batch = Applitools::BatchInfo.new(batch_name)
     batch.id = rand(9999999999).to_s
-    batch.sequence_name = batch_name
+    #batch.sequence_name = batch_name
     batch.notify_on_completion = true
 
     @conf = Applitools::Selenium::Configuration.new.tap do |config|
